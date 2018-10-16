@@ -16,10 +16,29 @@ public class RationalNumber extends RealNumber{
     //simplifies the rationalnumber by finding the GCF of both values;
   }
 
-  public int getNum(){
+  public RationalNumber add(){
+
+  }
+
+  public RationalNumber subtract(){
+
+  }
+
+  public RationalNumber divide(){
+
+  }
+  public RationalNumber multiply(){
+
+  }
+
+  public double getValue(){
+    //return ((numerator + 0.0) / denominator);
+    return value;
+  }
+  public int getNumerator(){
     return numerator;
   }
-  public int getDem(){
+  public int getDenominator(){
     return denominator;
   }
   public String toString(){

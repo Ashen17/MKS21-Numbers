@@ -1,14 +1,28 @@
 public class RealNumber{
-  private double num;
+  private double value;
 
   public RealNumber(double val){
-    num = val;
+    value = val;
   }
 
-  public getVal(){
-    return num;
+  public getValue(){
+    return value;
+  }
+
+  public double add(RealNumber other){
+    return value + other.getValue();
+  }
+  public double subtract(RealNumber other){
+    return value - other.getValue();
+  }
+  public double multiply(RealNumber other){
+    return value * other.getValue();
+  }
+  public double divide(RealNumber other){
+    return value / other.getValue();
   }
 
   public String toString(){
-  return "" + num;
+  return "" + value;
+  }
 }
