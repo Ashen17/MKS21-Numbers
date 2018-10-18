@@ -5,7 +5,7 @@ public class RealNumber{
     value = val;
   }
 
-  public getValue(){
+  public double getValue(){
     return value;
   }
 
@@ -13,7 +13,10 @@ public class RealNumber{
     return value + other.getValue();
   }
   public double subtract(RealNumber other){
+    //System.out.println("Value:" + value);
+    //System.out.println("other.getValue():" + other.getValue());
     return value - other.getValue();
+
   }
   public double multiply(RealNumber other){
     return value * other.getValue();
